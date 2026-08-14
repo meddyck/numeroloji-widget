@@ -11,8 +11,8 @@ function calculateLifePath(dateString) {
 
 function runCalculation() {
     const dob = document.getElementById('dob').value;
-    if (!dob) return alert("Lütfen tarih seçin!");
+    if (!dob) return alert("Please select a date!");
     
     const number = calculateLifePath(dob);
-    document.getElementById('result').innerHTML = `<h3>Kişilik Numaranız: ${number}</h3>`;
+    document.getElementById('result').innerHTML = `<h3>Your Life Path Number: ${number}</h3>`;
 }
