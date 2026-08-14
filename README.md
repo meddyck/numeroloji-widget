@@ -1,19 +1,26 @@
-# Lightweight Numerology Calculator Widget
+# Numerology Life Path Calculator
 
-A clean, dependency-free JavaScript widget designed to calculate core life path numbers from a date of birth. Perfect for embedding into landing pages, blogs, or platforms like Kajabi and Shopify.
+A clean, responsive, and logic-driven web widget that calculates a person's "Life Path Number" based on their date of birth, following standard numerology algorithms.
 
-## Features
-* **Pure Vanilla JavaScript:** Fast, lightweight, and requires no external libraries or heavy frameworks.
-* **Smart Digit Reduction:** Automatically handles recursive digit reduction, preserving master numbers (11, 22, 33).
-* **Embeddable:** Easily integrated into any website using a simple HTML custom code block.
-* **Responsive Design:** Clean and modern UI that adapts seamlessly to mobile and desktop screens.
+## Why this project?
+This project demonstrates my ability to:
+*   **Write Clean Logic:** Implemented complex mathematical reduction algorithms for numerology.
+*   **Responsive UI:** Created a user-friendly design that works seamlessly on desktop and mobile.
+*   **Component-Based Approach:** Modularized the code for easy maintenance and scaling.
+
+## Key Features
+*   **Real-time Calculation:** Instant results with no page reloads.
+*   **Professional Design:** Modern, shadow-based card UI for a polished look.
+*   **Standardized Algorithms:** Calculations follow traditional numerology master number rules.
 
 ## Tech Stack
-* **HTML5**
-* **CSS3**
-* **JavaScript (ES6+)**
+*   HTML5 / CSS3 (Modern Flexbox layout)
+*   Vanilla JavaScript (ES6+)
 
-## How to Use
-1. Clone or download the repository.
-2. Embed the `index.html` structure into your website's custom code section, or use the script directly.
-3. Pass the user's date of birth to the `calculateLifePath()` function to get the core number personality.
+## How to use
+1. Clone the repository.
+2. Open `index.html` in your browser.
+3. Select a date and click "Calculate".
+
+---
+*Created as a portfolio project to showcase front-end development and logic implementation skills.*
