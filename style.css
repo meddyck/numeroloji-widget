@@ -1,16 +1,77 @@
+/* General reset to ensure consistent styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6; /* Soft light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Main calculator container styled as a modern card */
 .calculator-container {
-    max-width: 300px;
-    margin: 20px auto;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    font-family: sans-serif;
+    background: white;
+    max-width: 400px;
+    width: 90%;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1); /* Subtle shadow for depth */
     text-align: center;
 }
-input, button {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    box-sizing: border-box;
+
+/* Styling the title */
+h2 {
+    color: #333;
+    margin-bottom: 20px;
 }
-button { background: #5c67f2; color: white; border: none; cursor: pointer; }
+
+/* Input field styling */
+input[type="date"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+/* Highlight border on focus */
+input[type="date"]:focus {
+    border-color: #5c67f2;
+}
+
+/* Button styling with smooth hover transition */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #5c67f2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4a54e1;
+}
+
+/* Result display area styling */
+#result {
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+#result h3 {
+    color: #5c67f2;
+}
